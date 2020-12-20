@@ -1,0 +1,35 @@
+[
+    {
+        "name": "wzblog/fan-test",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "./packages/fan-test",
+            "reference": "21ea9997e21a7f632cde971463ec54f0bd4d7c13"
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FanTest\\": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "wzblog",
+                "email": "wzblog@gmail.com"
+            }
+        ],
+        "description": "test myself packages",
+        "transport-options": {
+            "relative": true
+        }
+    }
+]

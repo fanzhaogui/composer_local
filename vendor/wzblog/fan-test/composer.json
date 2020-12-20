@@ -1,0 +1,19 @@
+{
+    "name": "wzblog/fan-test",
+    "description": "test myself packages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wzblog",
+            "email": "wzblog@gmail.com"
+        }
+    ],
+    "require": {
+        "PHP":">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FanTest\\": "src/"
+        }
+    }
+}

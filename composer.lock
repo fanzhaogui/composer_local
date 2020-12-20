@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cdd09c5fd41d214460e93462c17611a9",
+    "packages": [
+        {
+            "name": "wzblog/fan-test",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/fan-test",
+                "reference": "21ea9997e21a7f632cde971463ec54f0bd4d7c13"
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FanTest\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wzblog",
+                    "email": "wzblog@gmail.com"
+                }
+            ],
+            "description": "test myself packages",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wzblog/fan-test": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

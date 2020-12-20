@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/*"
+        }
+    ],
+    "require": {
+        "wzblog/fan-test": "dev-master"
+    }
+}
